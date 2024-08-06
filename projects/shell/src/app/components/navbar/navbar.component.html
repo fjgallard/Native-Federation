@@ -1,8 +1,8 @@
 <mat-toolbar>
-  <span>Micro Frontends Demo</span>
+  <span (click)="navigate('')">Micro Frontends Demo</span>
   <span class="example-spacer"></span>
   <div class="nav-list">
-    <button mat-button>Dashboard</button>
-    <button mat-button>List</button>
+    <button mat-button (click)="navigate('dashboard')">Dashboard</button>
+    <button mat-button (click)="navigate('list')">List</button>
   </div>
 </mat-toolbar>
