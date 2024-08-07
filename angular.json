@@ -180,6 +180,7 @@
 							}
 						],
 						"styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
 							"projects/dashboard/src/styles.scss"
 						],
 						"scripts": []
@@ -204,6 +205,7 @@
 							}
 						],
 						"styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
 							"projects/dashboard/src/styles.scss"
 						],
 						"scripts": []
@@ -302,6 +304,7 @@
 							}
 						],
 						"styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
 							"projects/list/src/styles.scss"
 						],
 						"scripts": []
@@ -326,6 +329,7 @@
 							}
 						],
 						"styles": [
+              "@angular/material/prebuilt-themes/azure-blue.css",
 							"projects/list/src/styles.scss"
 						],
 						"scripts": []
