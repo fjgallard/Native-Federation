@@ -8,8 +8,13 @@ export const routes: Routes = [
       loadRemoteModule('dashboard', './Component').then((m) => m.AppComponent),
   },
   {
-    path: 'list',
+    path: 'content',
     loadComponent: () =>
-      loadRemoteModule('list', './Component').then((m) => m.AppComponent),
+      loadRemoteModule('list', './List').then((m) => m.ListComponent),
+  },
+  {
+    path: 'login',
+    loadComponent: () =>
+      loadRemoteModule('list', './Login').then((m) => m.LoginComponent),
   },
 ];

@@ -6,6 +6,8 @@ module.exports = withNativeFederation({
 
   exposes: {
     './Component': './projects/list/src/app/app.component.ts',
+    './Login': './projects/list/src/app/login/login.component.ts',
+    './List': './projects/list/src/app/list/list.component.ts',
   },
 
   shared: {
@@ -22,5 +24,5 @@ module.exports = withNativeFederation({
 
   // Please read our FAQ about sharing libs:
   // https://shorturl.at/jmzH0
-  
+
 });
